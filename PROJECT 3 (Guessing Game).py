@@ -42,3 +42,4 @@ elif guesses >= 10:
     print("AVERAGE GUESSING !")
 else:
     print("POOR GUESSING !")
+

@@ -6,16 +6,16 @@ def gamewin(computer,you):
     if computer == you:
         return None
 # CHECK FOR ALL THE POSSIBILITIES WHEN COMPUTER CHOSE "STONE"
-    elif computer == "stone":
+    elif computer == "stone" :
         if you == "paper":
             return True
         elif you == "scissor":
             return False
-        elif you is not "stone":
+        elif you != "stone":
             return "invalid"
-        elif you is not "paper":
+        elif you != "paper":
             return "invalid"
-        elif you is not "scissor":
+        elif you != "scissor":
             return "invalid"
 # CHECK FOR ALL THE POSSIBILITIES WHEN COMPUTER CHOSE "SCISSOR"
     elif computer == "scissor":
@@ -23,11 +23,11 @@ def gamewin(computer,you):
             return False
         elif you == "stone":
             return True
-        elif you is not "stone":
+        elif you != "stone":
                 return "invalid"
-        elif you is not "paper":
+        elif you != "paper":
             return "invalid"
-        elif you is not "scissor":
+        elif you != "scissor":
             return "invalid"
 # CHECK FOR ALL THE POSSIBLILITIES WHEN COMPUTER CHOSE "PAPER"
     elif computer == "paper":
@@ -35,11 +35,11 @@ def gamewin(computer,you):
             return False
         elif you == "scissor":
             return True
-        elif you is not "stone":
+        elif you != "stone":
                 return "invalid"
-        elif you is not "paper":
+        elif you != "paper":
             return "invalid"
-        elif you is not "scissor":
+        elif you != "scissor":
             return "invalid"
 
 print("computer's turn: stone(s) paper(p) scissor(sc)?")
